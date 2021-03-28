@@ -16,6 +16,7 @@ describe("When the user wants to edit a book that is int the list", ()=>{
             cy.get(`:nth-child(${i+1}) > .ant-table-cell > button.ant-btn.ant-btn-primary.ant-btn-circle.ant-btn-icon-only`).click();
         })
 
+        cy.wait(1000)
         cy.get('#name').click().type(book_name_second);
         cy.get('#author').click().type(book_author_second);
         cy.get('.ant-modal-footer > .ant-btn-primary').click()

@@ -1,4 +1,4 @@
-const book_name_first = 'Patterns of Enterprise Application Architecture';
+const book_name_first = 'Working Effectively with Legacy Code';
 
 describe("When the user wants to delete a book that is listed", ()=>{
     before(()=>{
