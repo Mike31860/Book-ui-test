@@ -5,7 +5,7 @@ const book_author_second = ' WASHINGTON'
 
 describe("When the user wants to edit a book that is int the list", ()=>{
     before(()=>{
-        cy.visit("https://librarya00347829.herokuapp.com/dashboard");
+        cy.visit("https://deploymentfrontmiguel.herokuapp.com/dashboard");
         cy.get('.ant-select-selector').click();
         cy.get('[title="50 / page"]').click();   
     })

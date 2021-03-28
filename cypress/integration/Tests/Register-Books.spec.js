@@ -5,7 +5,7 @@ const book_author_first = "GEORGE"
 describe("When the user wants to add a book in the list", ()=>{
 
     before(()=>{
-        cy.visit("https://librarya00347829.herokuapp.com/dashboard");       
+        cy.visit("https://deploymentfrontmiguel.herokuapp.com/dashboard");       
         cy.get('.ant-select-selector').click();
         cy.get('[title="50 / page"]').click();
     })

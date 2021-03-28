@@ -1,10 +1,10 @@
 describe("When the user wants to see that there are books in the list", ()=>{
     before(()=>{
-        cy.visit("https://librarya00347829.herokuapp.com/dashboard");
+        cy.visit("https://deploymentfrontmiguel.herokuapp.com/dashboard");
     
     })
 
-    it("Then the book should be listed with the new name and author",()=>{
+    it("Then the books should be listed",()=>{
         cy.get('table')
         .find('tr')
         .should(($row) => {
