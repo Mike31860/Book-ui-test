@@ -11,7 +11,7 @@ npm run test:e2e:ui:headless
 - Test on Delete-Books.spec.js:
   - Test when user wants to delete a book in the  deployed page "https://deploymentfrontmiguel.herokuapp.com/dashboard"
   - Lists books before deleting an specific book, search for the book, delete de book, asserting the book is not listed in the list.
-  - 
+   
 - Test on Edit-Books.spec.js:
   - Test when the user wants to edit a book in the deployed page
   - The list books will be listed
@@ -19,10 +19,10 @@ npm run test:e2e:ui:headless
   - Asserting the edit book with the new name or the new author is listed.
 
 - Test on Edit-BooksNegative.spec.js
- - Test when the user wants to edit a book but the author name is not filled out
- - The list books will be listed
- - the book to be selected must be in the list to be able to put the name of the book with out the author name
- -  Asserting the button saved is disabled.
+  - Test when the user wants to edit a book but the author name is not filled out
+  - The list books will be listed
+  - the book to be selected must be in the list to be able to put the name of the book with out the author name
+  -  Asserting the button saved is disabled.
 
 - Test on List-Books.spec.js
  - Test when the user wants to display the list of the books.
