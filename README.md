@@ -6,7 +6,7 @@ npm i
 npm run test:e2e:ui:headless
 
 ```
-** The following test cases are covered in the folder e2e-api/specs/ **
+** The following test cases are covered in the folder cypress/integration/Test **
 
 - Test on Delete-Books.spec.js:
   - Test when user wants to delete a book in the  deployed page "https://deploymentfrontmiguel.herokuapp.com/dashboard"
