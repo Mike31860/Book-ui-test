@@ -25,20 +25,20 @@ npm run test:e2e:ui:headless
   -  Asserting the button saved is disabled.
 
 - Test on List-Books.spec.js
- - Test when the user wants to display the list of the books.
- - The list books will be listed 
- - Asserting that there is at least one element on the book list.
+  - Test when the user wants to display the list of the books.
+  - The list books will be listed 
+  - Asserting that there is at least one element on the book list.
 
 - Test on Register-Books.spec.js
- - Test when the user wants to register a book
- -  The list books will be listed
- -  Putting a book name and an author name, registering the book
- -  Asserting that the book name and the author name is listed on the page
+  - Test when the user wants to register a book
+  -  The list books will be listed
+  -  Putting a book name and an author name, registering the book
+  -  Asserting that the book name and the author name is listed on the page
 
 - Test on Register-BookNegative.spec.js
- - test when the user wants to register a book without the author name
- - The list books will be listed
- - utting a book name without the author name
- - Asserting that the button saved is disabled.
+  - test when the user wants to register a book without the author name
+  - The list books will be listed
+  - utting a book name without the author name
+  - Asserting that the button saved is disabled.
 
 
